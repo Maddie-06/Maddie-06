@@ -14,7 +14,9 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: Maddie-06
-          outputs: dist/snake.svg
+
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=#ffb7d5&color_dots=#ffe5ec,#ffc2d1,#ffb3c6,#ff8fab,#fb6f92
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
